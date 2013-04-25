@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-[[wayfinder?
+[[Wayfinder?
 ${1:    &startId=`${2}`}
 ${5:    &level=`${6:0}`}
 ${7:    &limit=`${8:0}`}
@@ -22,7 +22,7 @@ ${93:   &activeParentRowTpl=`${94}`}
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>wayf</tabTrigger>
+    <tabTrigger>Wayf</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.plain, text.html, text.html5</scope>
 </snippet>

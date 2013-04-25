@@ -2,7 +2,7 @@
 
 This bundle aims to provide most of MODx functionality and features when creating Custom Manager Pages.
 
-It also provides code-snippets for some common snippets and their properties - currently for getResources and Wayfinder. Snippets include both a short and full form.
+It also provides code-snippets for some common snippets and their properties - currently for getResources, Wayfinder and FormIt. Snippets include both a short and full form.
 
 Here is a list of triggers currently setup and in their own context.
 
@@ -144,7 +144,7 @@ Provides a getResources snippet call with all properties and sample/default valu
 
 ####  Wayfinder
 
-trigger: _wayf_
+trigger: _Wayf_
 
 Provides a Wayfinder snippet call with only a few properties. You are encouraged to customise your own version of this, based on the full version below.
 
@@ -169,7 +169,7 @@ Provides a Wayfinder snippet call with only a few properties. You are encouraged
 	]]
 
 
-trigger: _wayfinder_
+trigger: _Wayfinder_
 
 Provides a Wayfinder snippet call with all properties and sample/default values. The first tab will highlight the entire line for each snippet property so it can quickly be removed if not required, alternatively a second tab will place you in the property value field.
 
@@ -226,5 +226,11 @@ Provides a Wayfinder snippet call with all properties and sample/default values.
 		&startItemTpl=``
 	]]
 
+
+
+
+####  FormIt
+
+trigger: _FormIt_
 
 

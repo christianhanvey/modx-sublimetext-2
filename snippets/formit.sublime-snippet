@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+[[FormIt?
+${1:    &hooks=`${2}`}
+]]
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>FormIt</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.plain, text.html, text.html5</scope>
+</snippet>

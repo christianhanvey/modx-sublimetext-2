@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+[[getResources?
+${1:	&parents=`${2}`}
+${3:	&depth=`${4:0}`}
+${5:	&tpl=`${6}`}
+${7:	&resources=`${8}`}
+${9:	&depth=`${10:10}`}
+${11:	&tplOdd=`${12}`}
+${13:	&tplFirst=`${14}`}
+${15:	&tplLast=`${16}`}
+${17:	&tpl_{n\}=`${18}`}
+${19:	&context=`${20}`}
+${21:	&tvFilters=`${22:filter2==one,filter1==bar%||filter1==foo}`}
+${23:	&tvFiltersAndDelimiter=`${24:&&}`}
+${25:	&tvFiltersOrDelimiter=`${26:|OR|}`}
+${27:	&where=`${28:{{"alias:LIKE":"foo%", "OR:alias:LIKE":"%bar"},{"OR:pagetitle:=":"foobar", "AND:description:=":"raboof"}}}`}
+${29:	&sortby=`${30:{"publishedon":"ASC","createdon":"DESC"}}`}
+${31:	&sortbyTV=`${32:}`}
+${33:	&sortbyTVType=`${34:string}`}
+${35:	&sortbyAlias=`${36:}`}
+${37:	&sortbyEscaped=`${38:0}`}
+${39:	&sortdir=`${40:DESC}`}
+${41:	&sortdirTV=`${42:DESC}`}
+${43:	&limit=`${44:5}`}
+${45:	&offset=`${46:0}`}
+${47:	&dbCacheFlag=`${48:0}`}
+${49:	&according=`${50:0}`}
+${51:	&includeContent=`${52:0}`}
+${53:	&includeTVs=`${54:0}`}
+${55:	&includeTVList=`${56:}`}
+${57:	&prepareTVs=`${58:1}`}
+${59:	&prepareTVList=`${60:}`}
+${61:	&processTVs=`${62:0}`}
+${63:	&processTVList=`${64:}`}
+${65:	&tvPrefix=`${66:tv.}`}
+${67:	&idx=`${68:1}`}
+${69:	&first=`${70:1}`}
+${71:	&last=`${72:}`}
+${73:	&outputSeparator=`${74:"\n"}`}
+]]
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getResources</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.plain, text.html, text.html5</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+[[getResources?
+${1:	&parents=`${2}`}
+${3:	&depth=`${4:0}`}
+${5:	&tpl=`${6}`}
+${7:	&resources=`${8}`}
+]]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getR</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.plain, text.html, text.html5</scope>
+</snippet>
+

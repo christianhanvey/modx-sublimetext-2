@@ -142,6 +142,7 @@ Provides a getResources snippet call with all properties and sample/default valu
 		&outputSeparator=`"\n"`
 	]]
 
+####  Wayfinder
 
 trigger: _wayf_
 

@@ -2,7 +2,7 @@
 
 This bundle aims to provide most of MODx functionality and features when creating Custom Manager Pages.
 
-It also provides code-snippets for some common snippets and their properties - currently only for getResources.
+It also provides code-snippets for some common snippets and their properties - currently for getResources and Wayfinder. Snippets include both a short and full form.
 
 Here is a list of triggers currently setup and in their own context.
 
@@ -143,9 +143,87 @@ Provides a getResources snippet call with all properties and sample/default valu
 	]]
 
 
+trigger: _wayf_
+
+Provides a Wayfinder snippet call with only a few properties. You are encouraged to customise your own version of this, based on the full version below.
+
+	[[wayfinder?
+		&startId=``
+		&level=`0`
+		&limit=`0`
+		&includeDocs=``
+		&excludeDocs=`0`
+		&sortBy=``
+		&sortOrder=`ASC`
+		&where=`[{"class_key:!=": "Article"}]`
+		&outerTpl=``
+		&rowTpl=``
+		&parentRowTpl=``
+		&parentRowHereTpl=``
+		&hereTpl=``
+		&innerTpl=``
+		&innerRowTpl=``
+		&innerHereTpl=``
+		&activeParentRowTpl=``
+	]]
 
 
+trigger: _wayfinder_
 
+Provides a Wayfinder snippet call with all properties and sample/default values. The first tab will highlight the entire line for each snippet property so it can quickly be removed if not required, alternatively a second tab will place you in the property value field.
+
+
+	[[wayfinder?
+		&startId=``
+		&displayStart=`0`
+		&level=`0`
+		&limit=`0`
+		&ignoreHidden=`0`
+		&ph=`0`
+		&debug=`0`
+		&hideSubMenus=`0`
+		&removeNewLines=`0`
+		&textOfLinks=`menutitle`
+		&titleOfLinks=`pagetitle`
+		&rowIdPrefix=`0`
+		&useWeblinkUrl=`1`
+		&includeDocs=``
+		&excludeDocs=`0`
+		&cacheResults=``
+		&cacheTime=`3600`
+		&contexts=``
+		&startIdContext=``
+		&config=``
+		&scheme=`-1`
+		&sortBy=``
+		&sortOrder=`ASC`
+		&where=`[{"class_key:!=": "Article"}]`
+		&hereId=``
+		&hereTpl=``
+		&firstClass=``
+		&lastClass=`last`
+		&hereClass=`active`
+		&selfClass=``
+		&parentClass=`parent`
+		&rowClass=``
+		&levelClass=``
+		&outerClass=``
+		&innerClass=``
+		&webLinkClass=``
+		&cssTpl=``
+		&jsTpl=``
+		&outerTpl=``
+		&rowTpl=``
+		&parentRowTpl=``
+		&parentRowHereTpl=``
+		&hereTpl=``
+		&innerTpl=``
+		&innerRowTpl=``
+		&innerHereTpl=``
+		&activeParentRowTpl=``
+		&categoryFoldersTpl=``
+		&startItemTpl=``
+	]]
 
 
 

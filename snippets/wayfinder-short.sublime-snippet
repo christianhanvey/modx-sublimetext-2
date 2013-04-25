@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+[[wayfinder?
+${1:    &startId=`${2}`}
+${5:    &level=`${6:0}`}
+${7:    &limit=`${8:0}`}
+${27:   &includeDocs=`${28}`}
+${29:   &excludeDocs=`${30:0}`}
+${43:   &sortBy=`${44}`}
+${45:   &sortOrder=`${46:ASC}`}
+${47:   &where=`${48:[{"class_key:!=": "Article"\}]}`}
+${77:   &outerTpl=`${78}`}
+${79:   &rowTpl=`${80}`}
+${81:   &parentRowTpl=`${82}`}
+${83:   &parentRowHereTpl=`${84}`}
+${85:   &hereTpl=`${86}`}
+${87:   &innerTpl=`${88}`}
+${89:   &innerRowTpl=`${90}`}
+${91:   &innerHereTpl=`${92}`}
+${93:   &activeParentRowTpl=`${94}`}
+]]
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>wayf</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.plain, text.html, text.html5</scope>
+</snippet>

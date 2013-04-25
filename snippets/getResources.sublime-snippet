@@ -14,8 +14,8 @@ ${19:	&context=`${20}`}
 ${21:	&tvFilters=`${22:filter2==one,filter1==bar%||filter1==foo}`}
 ${23:	&tvFiltersAndDelimiter=`${24:&&}`}
 ${25:	&tvFiltersOrDelimiter=`${26:|OR|}`}
-${27:	&where=`${28:{{"alias:LIKE":"foo%", "OR:alias:LIKE":"%bar"},{"OR:pagetitle:=":"foobar", "AND:description:=":"raboof"}}}`}
-${29:	&sortby=`${30:{"publishedon":"ASC","createdon":"DESC"}}`}
+${27:	&where=`${28:{{"alias:LIKE":"foo%", "OR:alias:LIKE":"%bar"\},{"OR:pagetitle:=":"foobar", "AND:description:=":"raboof"\}\}}`}
+${29:	&sortby=`${30:{"publishedon":"ASC","createdon":"DESC"\}}`}
 ${31:	&sortbyTV=`${32:}`}
 ${33:	&sortbyTVType=`${34:string}`}
 ${35:	&sortbyAlias=`${36:}`}

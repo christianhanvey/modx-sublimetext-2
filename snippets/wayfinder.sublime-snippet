@@ -1,0 +1,64 @@
+<snippet>
+    <content><![CDATA[
+[[wayfinder?
+${1:    &startId=`${2}`}
+${3:    &displayStart=`${4:0}`}
+${5:    &level=`${6:0}`}
+${7:    &limit=`${8:0}`}
+${9:    &ignoreHidden=`${10:0}`}
+${11:   &ph=`${12:0}`}
+${13:   &debug=`${14:0}`}
+${15:   &hideSubMenus=`${16:0}`}
+${17:   &removeNewLines=`${18:0}`}
+${19:   &textOfLinks=`${20:menutitle}`}
+${21:   &titleOfLinks=`${22:pagetitle}`}
+${23:   &rowIdPrefix=`${24:0}`}
+${25:   &useWeblinkUrl=`${26:1}`}
+${27:   &includeDocs=`${28}`}
+${29:   &excludeDocs=`${30:0}`}
+${31:   &cacheResults=`${32}`}
+${33:   &cacheTime=`${34:3600}`}
+${35:   &contexts=`${36}`}
+${37:   &startIdContext=`${38}`}
+${39:   &config=`${40}`}
+${41:   &scheme=`${42:-1}`}
+${43:   &sortBy=`${44}`}
+${45:   &sortOrder=`${46:ASC}`}
+${47:   &where=`${48:[{"class_key:!=": "Article"\}]}`}
+${49:   &hereId=`${50}`}
+${51:   &hereTpl=`${52}`}
+${53:   &firstClass=`${54}`}
+${55:   &lastClass=`${56:last}`}
+${57:   &hereClass=`${58:active}`}
+${59:   &selfClass=`${60}`}
+${61:   &parentClass=`${62:parent}`}
+${63:   &rowClass=`${64}`}
+${65:   &levelClass=`${66}`}
+${67:   &outerClass=`${68}`}
+${69:   &innerClass=`${70}`}
+${71:   &webLinkClass=`${72}`}
+${73:   &cssTpl=`${74}`}
+${75:   &jsTpl=`${76}`}
+${77:   &outerTpl=`${78}`}
+${79:   &rowTpl=`${80}`}
+${81:   &parentRowTpl=`${82}`}
+${83:   &parentRowHereTpl=`${84}`}
+${85:   &hereTpl=`${86}`}
+${87:   &innerTpl=`${88}`}
+${89:   &innerRowTpl=`${90}`}
+${91:   &innerHereTpl=`${92}`}
+${93:   &activeParentRowTpl=`${94}`}
+${95:   &categoryFoldersTpl=`${96}`}
+${97:   &startItemTpl=`${98}`}
+]]
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>wayfinder</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.plain, text.html, text.html5</scope>
+</snippet>
+
+
+
+

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 [[FormIt?
-${1:	&hooks=`${2}`}
+${1:	&hooks=`${2:spam,email,redirect}`}
 ${3:	&preHooks=`${4}`}
 ${5:	&submitVar=`${6}`}
 ${7:	&validate=`${8:username:required,email:email:required}`}
@@ -16,11 +16,28 @@ ${23:	&placeholderPrefix=`${24:fi.}`}
 ${25:	&successMessage=`${26}`}
 ${27:	&successMessagePlaceholder=`${28:fi.successMessage}`}
 ${29:	&redirectTo=`${30}`}
+${31:	emailTpl=`${32}`}
+${33:	emailSubject=`${34}`}
+${35:	emailUseFieldForSubject=`${36}`}
+${37:	emailTo=`${38}`}
+${39:	emailToName=`${40}`}
+${41:	emailFrom=`${42}`}
+${43:	emailFromName=`${44}`}
+${45:	emailHtml=`${46}`}
+${47:	emailConvertNewlines=`${48}`}
+${49:	emailReplyTo=`${50}`}
+${51:	emailReplyToName=`${52}`}
+${53:	emailCC=`${54}`}
+${55:	emailCCName=`${56}`}
+${57:	emailBCC=`${58}`}
+${59:	emailBCCName=`${60}`}
+${61:	emailMultiWrapper=`${62}`}
+${63:	emailMultiSeparator=`${64}`}
 ]]
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>FormIt</tabTrigger>
+    <tabTrigger>FormItemail</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.plain, text.html, text.html5</scope>
 </snippet>

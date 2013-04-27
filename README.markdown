@@ -2,7 +2,7 @@
 
 This bundle aims to provide most of MODx functionality and features when creating Custom Manager Pages.
 
-It also provides code-snippets for some common snippets and their properties - currently for getResources, Wayfinder and FormIt. Snippets include both a short and full form.
+It also provides code-snippets for some common snippets and their properties - currently for getResources, Wayfinder and FormIt.
 
 Here is a list of triggers currently setup and in their own context.
 
@@ -232,5 +232,65 @@ Provides a Wayfinder snippet call with all properties and sample/default values.
 ####  FormIt
 
 trigger: _FormIt_
+
+Provides a snippet call for FormIt. The first tab will highlight the entire line for each snippet property so it can quickly be removed if not required, alternatively a second tab will place you in the property value field.
+
+
+[[FormIt?
+	&hooks=``
+	&preHooks=``
+	&submitVar=``
+	&validate=`username:required,email:email:required`
+	&validationErrorMessage=`<p class="error">A form validation error occurred. Please check the values you have entered.</p>`
+	&validationErrorBulkTpl=`<li>[[+error]]</li>`
+	&errTpl=`<span class="error">[[+error]]</span>`
+	&customValidators=``
+	&clearFieldsOnSuccess=`1`
+	&store=`0`
+	&storeTime=`300`
+	&placeholderPrefix=`fi.`
+	&successMessage=``
+	&successMessagePlaceholder=`fi.successMessage`
+	&redirectTo=``
+]]
+
+
+
+trigger: _FormItemail_
+
+[[FormIt?
+	&hooks=`spam,email,redirect`
+	&preHooks=``
+	&submitVar=``
+	&validate=`username:required,email:email:required`
+	&validationErrorMessage=`<p class="error">A form validation error occurred. Please check the values you have entered.</p>`
+	&validationErrorBulkTpl=`<li>[[+error]]</li>`
+	&errTpl=`<span class="error">[[+error]]</span>`
+	&customValidators=``
+	&clearFieldsOnSuccess=`1`
+	&store=`0`
+	&storeTime=`300`
+	&placeholderPrefix=`fi.`
+	&successMessage=``
+	&successMessagePlaceholder=`fi.successMessage`
+	&redirectTo=``
+	emailTpl=``
+	emailSubject=``
+	emailUseFieldForSubject=``
+	emailTo=``
+	emailToName=``
+	emailFrom=``
+	emailFromName=``
+	emailHtml=``
+	emailConvertNewlines=``
+	emailReplyTo=``
+	emailReplyToName=``
+	emailCC=``
+	emailCCName=``
+	emailBCC=``
+	emailBCCName=``
+	emailMultiWrapper=``
+	emailMultiSeparator=``
+]]
 
 
